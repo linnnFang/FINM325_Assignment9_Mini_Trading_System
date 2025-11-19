@@ -1,0 +1,54 @@
+[
+    {
+        "timestamp": "2025-11-18T20:20:10.019662",
+        "event": "OrderCreated",
+        "data": {
+            "8": "FIX.4.2",
+            "35": "D",
+            "MsgType": "D",
+            "55": "AAPL",
+            "Symbol": "AAPL",
+            "54": "1",
+            "Side": "1",
+            "38": "500",
+            "OrderQty": "500",
+            "40": "2",
+            "OrdType": "2",
+            "10": "128"
+        }
+    },
+    {
+        "timestamp": "2025-11-18T20:20:10.019662",
+        "event": "OrderFilled",
+        "data": {
+            "symbol": "AAPL",
+            "qty": 500
+        }
+    },
+    {
+        "timestamp": "2025-11-18T20:20:10.019662",
+        "event": "OrderCreated",
+        "data": {
+            "8": "FIX.4.2",
+            "35": "D",
+            "MsgType": "D",
+            "55": "TSLA",
+            "Symbol": "TSLA",
+            "54": "1",
+            "Side": "1",
+            "38": "20000",
+            "OrderQty": "20000",
+            "40": "2",
+            "OrdType": "2",
+            "10": "128"
+        }
+    },
+    {
+        "timestamp": "2025-11-18T20:20:10.019662",
+        "event": "OrderRejected",
+        "data": {
+            "symbol": "TSLA",
+            "reason": "Order size 20000 exceeds max_order_size 500"
+        }
+    }
+]
